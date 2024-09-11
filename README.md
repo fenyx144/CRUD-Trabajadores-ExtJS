@@ -108,7 +108,7 @@ Iniciar PostgreSQL:
 
 Aquí hay una captura de pantalla del proyecto:
 
-![Inicio](./images/Captura1.png)
+![Inicio](https://github.com/fenyx144/CRUD-Trabajadores-ExtJS/blob/main/images/Captura1.png)
 
 ![Inserción](./images/Captura2.png)
 
