@@ -108,10 +108,10 @@ Iniciar PostgreSQL:
 
 Aquí hay una captura de pantalla del proyecto:
 
-![Inicio](tree/images/Captura1.png)
+![Inicio](./images/Captura1.png)
 
-![Inserción](tree/images/Captura2.png)
+![Inserción](./images/Captura2.png)
 
-![Edición](tree/images/Captura3.png)
+![Edición](./images/Captura3.png)
 
-![Eliminación](tree/images/Captura4.png)
+![Eliminación](./images/Captura4.png)
