@@ -114,5 +114,4 @@ Aquí hay una captura de pantalla del proyecto:
 
 ![Edición](images/Captura3.png)
 
-![Eliminación](images/Captura4.png)# CRUD-Trabajadores-ExtJS
-En este proyecto utilizando ExtJS mostramos una lista de trabajadores a los cuales se les puede realizar operaciones CRUD en una base de datos postgres
+![Eliminación](images/Captura4.png)
