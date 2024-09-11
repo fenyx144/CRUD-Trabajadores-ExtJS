@@ -1,6 +1,7 @@
 
 <?php
 // Script para realizar la conexion con la base de datos
+
 $host = 'localhost'; 
 $port = '5432'; 
 $dbname = 'postgres';

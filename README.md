@@ -80,8 +80,9 @@ Abrir pgAdmin:
 En el panel de navegación izquierdo, selecciona el servidor al que deseas conectar e ingresa tus credenciales si es necesario.
 Cargar el Backup:
 
-- Haz clic en Tools -> Backup y en la ventana de Restore, selecciona el archivo de backup basedatos.sql .
+- Haz clic en Tools -> Restore y en la ventana de Restore, selecciona el archivo de backup database.sql .
 - Ajusta las opciones de restauración si es necesario y haz clic en Restore para comenzar el proceso.
+- 
 3. **Lanzar XAMPP y PostgreSQL**
  Iniciar XAMPP:
 
@@ -90,13 +91,21 @@ Cargar el Backup:
 Iniciar PostgreSQL:
 
 - Abre el panel de control de PostgreSQL (si lo has instalado) y asegúrate de que el servicio de PostgreSQL esté en ejecución.
-4. Copiar la Carpeta del Código dentro de XAMPP
+4. **Copiar la Carpeta del Código dentro de XAMPP**
 - Localizar la Carpeta del Código:
 
 - Navega a la carpeta donde descargaste o clonaste el código del proyecto.
 - Copiar la Carpeta:
 
-- Copia la carpeta del proyecto y pégala en la carpeta htdocs dentro del directorio de instalación de XAMPP (por ejemplo, C:\xampp\htdocs\).
+Copia la carpeta del proyecto y pégala en la carpeta htdocs dentro del directorio de instalación de XAMPP (por ejemplo, C:\xampp\htdocs\).
+
+- Abre el archivo conectar.php ubicado en  [proyecto]/bd/conectar.php
+cambia $user y  $password segun tu configuración:
+$host = 'localhost'; 
+$port = '5432'; 
+$dbname = 'postgres';
+$user = 'postgres'; 
+$password = 'admin';
 5. **Ver el Proyecto en el Navegador**
 - Abrir el Navegador Web:
 - Ingresa la siguiente URL en la barra de direcciones: http://localhost/tarea1
@@ -106,7 +115,7 @@ Iniciar PostgreSQL:
 
 Aquí hay una captura de pantalla del proyecto:
 
-![Inicio](https://github.com/fenyx144/CRUD-Trabajadores-ExtJS/blob/main/images/Captura1.PNG)
+![Inicio](./images/Captura1.PNG)
 
 Inserción de un nuevo trabajador
 

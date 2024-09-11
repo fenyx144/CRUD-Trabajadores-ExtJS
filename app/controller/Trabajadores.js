@@ -1,6 +1,6 @@
 /*
     Controller principal para el funcionamiento de la pagina
-    Se define eñ funcionamiento de los botones y el funcionamiento  de lformulario
+    Se define el funcionamiento de los botones y el funcionamiento  del formulario
 */
 
 Ext.define('ExtMVC.controller.Trabajadores', {
@@ -43,7 +43,7 @@ Ext.define('ExtMVC.controller.Trabajadores', {
             edit.down('form').loadRecord(record);
         }
     },
-     // Función que se ejecuta cuando se hace clic en el botón 'Nuevo'
+     // Función que se ejecuta cuando se hace click en el botón 'Nuevo'
     addTrabajador: function(button) {
         Ext.create('ExtMVC.view.Trabajador.Formulario');
     },
