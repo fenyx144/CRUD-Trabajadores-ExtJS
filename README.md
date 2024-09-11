@@ -17,13 +17,11 @@ Asegúrate de tener instaladas las siguientes herramientas:
 
 5. **PHP**: Lenguaje de scripting utilizado para las operaciones en el backend.
 
-
 ## Instalación
-# Guía de Instalación y Configuración
 
 Este proyecto requiere que tengas XAMPP y PostgreSQL instalados y configurados para funcionar correctamente. Sigue los pasos a continuación para instalar y configurar estas herramientas.
 
-## Instalación de XAMPP
+### Instalación de XAMPP
 
 1. **Descargar XAMPP**:
    - Ve a la [página de descargas de XAMPP](https://www.apachefriends.org/index.html).
@@ -38,7 +36,7 @@ Este proyecto requiere que tengas XAMPP y PostgreSQL instalados y configurados p
    - Abre el Panel de Control de XAMPP.
    - Inicia los servicios de `Apache` y `MySQL`. Asegúrate de que ambos servicios estén en ejecución.
 
-## Instalación de PostgreSQL
+### Instalación de PostgreSQL
 
 1. **Descargar PostgreSQL**:
    - Ve a la [página de descargas de PostgreSQL](https://www.postgresql.org/download/windows/).
@@ -52,7 +50,7 @@ Este proyecto requiere que tengas XAMPP y PostgreSQL instalados y configurados p
 3. **Iniciar PostgreSQL**:
    - El instalador debería haber creado un servicio de PostgreSQL que se inicia automáticamente. Verifica que PostgreSQL esté corriendo desde el "Administrador de Servicios" de Windows o usa pgAdmin para confirmar que la base de datos está activa.
 
-## Configuración de PostgreSQL con XAMPP
+### Configuración de PostgreSQL con XAMPP
 
 1. **Configurar PHP para PostgreSQL**:
    - Abre el archivo `php.ini` en el directorio de instalación de XAMPP, por ejemplo, `C:\xampp\php\php.ini`.
@@ -66,9 +64,9 @@ Este proyecto requiere que tengas XAMPP y PostgreSQL instalados y configurados p
 2. **Reiniciar Apache**:
    - Regresa al Panel de Control de XAMPP.
    - Reinicia el servicio de `Apache` para aplicar los cambios realizados en `php.ini`.
-# Guía de Instalación y Configuración
+## Configuración
 
-## 1. Descargar el Código
+### 1. Descargar el Código
 
 1. **Clona o descarga el repositorio del proyecto desde GitHub:**
    ```bash
@@ -110,8 +108,14 @@ Aquí hay una captura de pantalla del proyecto:
 
 ![Inicio](https://github.com/fenyx144/CRUD-Trabajadores-ExtJS/blob/main/images/Captura1.PNG)
 
+Inserción de un nuevo trabajador
+
 ![Inserción](./images/Captura2.PNG)
 
+Edición de un trabajador
+
 ![Edición](./images/Captura3.PNG)
+
+Eliminación de un trabajador
 
 ![Eliminación](./images/Captura4.PNG)
